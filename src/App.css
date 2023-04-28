@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+}
+.main_div{
+  height: 100vh;
+width: 100%;
+background: #13081f;;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.center_div{
+  width: 25%;
+height: 70vh;
+background-color:#f4f4f4;
+box-shadow: 5px 5px 25px-5px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+}
+h1{
+  color:rgba(0, 0, 0, 0.87);
+font-size: 40px;
+margin:10px 0 25px;
+min-width: 64px;
+box-sizing: border-box;
+font-weight: 500;
+letter-spacing: 0.1em;
+text-shadow:5px 5px 25px-5px rgba(0, 0, 0, 0.3); 
+}
+input{
+text-align: center;
+height:30px;
+border: none;
+background:transparent;
+font-size: 20px;
+font-weight: 500;
+width: 50%;
+border-bottom: 2px solid #8566aa;
+outline: none;
+margin: 0 10px 0 20px;
+color: #ac5757;
+}
+.newbtn{
+color: rgb(234, 239, 235);
+background-color: #8566aa;
+border-radius: 60%!important;
+cursor: pointer;
+border-color: rgb(10, 87, 16);
+font-size: smaller;
+}
+.newbtn:hover{
+color:#e8e8e2!important;
+background-color: rgb(10, 87, 16);
+}
+.AccountCircleIcon{
+width: 2rem;
+height: 10rem;
+}
+ol{
+margin:30px 0 0 15px;
+}
+ol li {
+padding-left: 20px;
+text-align: left;
+font-size: 20px;
+font-weight: 500;
+min-height: 40px;
+display: flex;
+align-items: center;
+color: #8566aa;
+text-transform: capitalize;
+list-style:none;
+}
+.delete-todo_style{
+display: flex;
+flex-direction:row;
+justify-content: left;
+align-items: center;
+}
+.deleteSweepIcon{
+width: 25px;
+height: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #8566aa;
+border-radius: 50%;
+margin: 0 15px 0 35px;
+padding: 5px;
+color: aliceblue;
+box-shadow:5px 5px 25px-5px rgba(0, 0, 0, 0.3); 
+cursor: pointer;
+}
+.deleteSweepIcon:hover{
+background-color: transparent;
+color: crimson;
+box-shadow:5px 5px 25px-5px rgba(255, 0, 0, 0.5); 
+}
+.MuisvgIcon-root{
+width: 2rem;
+height: 2rem;
+}
+@media(max-width:786px){
+.center_div{width: 55%;}
+
+delete-todo_style.fa-times{
+margin: 0 15px 0 15px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+button{
+margin-left: 5px;
+min-height: 41px;
+width: 40px;
+font-size: 30px;
+}
+}
